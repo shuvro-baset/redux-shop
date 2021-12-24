@@ -33,18 +33,18 @@ const SingleProduct = ({ match, history }) => {
         <h2>{error}</h2>
       ) : (
         <>
-          <div className="productscreen__left">
-            <div className="left__image">
+          <div className="">
+            <div className="">
               <img src={product.imageUrl} alt={product.name} />
             </div>
-            <div className="left__info">
-              <p className="left__name">{product.name}</p>
+            <div className="">
+              <p className="">{product.name}</p>
               <p>Price: ${product.price}</p>
               <p>Description: {product.description}</p>
             </div>
           </div>
-          <div className="productscreen__right">
-            <div className="right__info">
+          <div className="">
+            <div className="">
               <p>
                 Price:
                 <span>${product.price}</span>
